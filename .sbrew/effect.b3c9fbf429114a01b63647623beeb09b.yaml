@@ -1,0 +1,45 @@
+﻿FormatVersion: 7
+Name: "Lyrics"
+Script: "Lyrics"
+Multithreaded: No
+Config:
+  FontName:
+    Type: "System.String"
+    Value: "assetlibrary/NotoSansMonoCJKjp-VF.otf"
+    DisplayName: "Font Name"
+  FontSize:
+    Type: "System.Int32"
+    Value: "27"
+    DisplayName: "Font Size"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+    DisplayName: "Font Scale"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,1"
+    DisplayName: "Glow Color"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.35644376,0.6464114,1,1"
+    DisplayName: "Outline Color"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "400"
+    DisplayName: "Subtitle Y"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  b591c3b75e504de68f95708c130fdf34:
+    Name: "Lyrics_particles"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  14ad750f23354b0b9bb3d9ed4599c447:
+    Name: "Lyrics"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

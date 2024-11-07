@@ -1,0 +1,16 @@
+﻿FormatVersion: 7
+Name: "Scenes"
+Script: "Scenes"
+Multithreaded: No
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  4863fce7557b42a3b55413ae466f39a0:
+    Name: "Scenes"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
